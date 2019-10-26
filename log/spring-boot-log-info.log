@@ -1,0 +1,32 @@
+2019-10-23 23:01:29.109 INFO  com.zsf.DevApplication Line:50  - Starting DevApplication on LAPTOP-BMFQQCMI with PID 17512 (D:\dev\devfreemarkdemo\target\classes started by xiaof in D:\dev\devfreemarkdemo)
+2019-10-23 23:01:29.114 INFO  com.zsf.DevApplication Line:650 - The following profiles are active: dev
+2019-10-23 23:01:29.153 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-23 23:01:29.154 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-23 23:01:30.254 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8100 (http)
+2019-10-23 23:01:30.274 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2019-10-23 23:01:30.275 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-23 23:01:30.352 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2019-10-23 23:01:30.352 INFO  org.springframework.web.context.ContextLoader Line:283 - Root WebApplicationContext: initialization completed in 1198 ms
+2019-10-23 23:01:30.960 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 23:01:31.035 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:58  - Adding welcome page template: index
+2019-10-23 23:01:31.181 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:57  - LiveReload server is running on port 35729
+2019-10-23 23:01:31.221 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8100 (http) with context path ''
+2019-10-23 23:01:31.223 INFO  com.zsf.DevApplication Line:59  - Started DevApplication in 2.621 seconds (JVM running for 3.76)
+2019-10-23 23:01:31.225 INFO  com.zsf.DevApplication Line:22  - DevfreemarkdemoApplication 启动成功!
+2019-10-23 23:02:26.861 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 23:02:26.862 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+2019-10-23 23:02:26.870 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 8 ms
+2019-10-23 23:02:26.893 INFO  com.zsf.freemark.devfreemarkdemo.login.controller.LoginController Line:32  - LoginController-login: userName = null; passWord = null
+2019-10-23 23:02:26.931 INFO  com.alibaba.druid.pool.DruidDataSource Line:922 - {dataSource-1} inited
+2019-10-23 23:02:39.723 INFO  com.zsf.freemark.devfreemarkdemo.login.controller.LoginController Line:32  - LoginController-login: userName = 123; passWord = 123
+2019-10-23 23:02:39.973 INFO  com.zsf.freemark.devfreemarkdemo.login.controller.LoginController Line:57  - LoginController-home
+2019-10-23 23:02:49.522 INFO  com.zsf.freemark.devfreemarkdemo.login.controller.LoginController Line:32  - LoginController-login: userName = null; passWord = null
+2019-10-23 23:04:22.598 INFO  com.zsf.freemark.devfreemarkdemo.login.controller.LoginController Line:32  - LoginController-login: userName = 123; passWord = 123
+2019-10-23 23:04:24.242 INFO  com.zsf.freemark.devfreemarkdemo.login.controller.LoginController Line:57  - LoginController-home
+2019-10-23 23:04:30.814 INFO  com.zsf.freemark.devfreemarkdemo.member.controller.MemberController Line:47  - MemberController-memberList : list = [{address=杭州, nickName=张小小6, grade=0, mobile=13111111111, id=1, status=1}, {address=上海, nickName=李四, grade=1, mobile=1311111111, id=2, status=0}]
+2019-10-23 23:04:39.769 INFO  com.zsf.freemark.devfreemarkdemo.member.controller.MemberController Line:66  - MemberController-updateStatus : memberId = 1
+2019-10-23 23:04:43.713 INFO  com.zsf.freemark.devfreemarkdemo.member.controller.MemberController Line:66  - MemberController-updateStatus : memberId = 1
+2019-10-23 23:04:48.309 INFO  com.zsf.freemark.devfreemarkdemo.member.controller.MemberController Line:85  - MemberController-editMemberInfo : memberId = 1
+2019-10-23 23:04:48.532 INFO  com.zsf.freemark.devfreemarkdemo.member.controller.MemberController Line:89  - MemberController-editMemberInfo : memberModel = MemberModel{id='1', wxOpenId='null', wxHeadIcon='null', wxNickname='null', grade=0, balance=0.0, VIPTime=null, withdrawalPassword='null', nickName='张小小6', mobile='13111111111', gender=null, email='420552577@qq.com'}
+2019-10-23 23:04:54.571 INFO  com.zsf.freemark.devfreemarkdemo.member.controller.MemberController Line:128 - MemberController-editMemberPassword : memberId = 2
+2019-10-23 23:04:59.275 INFO  com.zsf.freemark.devfreemarkdemo.member.controller.MemberController Line:47  - MemberController-memberList : list = [{address=杭州, nickName=张小小6, grade=0, mobile=13111111111, id=1, status=1}, {address=上海, nickName=李四, grade=1, mobile=1311111111, id=2, status=0}]

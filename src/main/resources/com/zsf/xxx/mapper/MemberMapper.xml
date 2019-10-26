@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zsf.xxx.mapper.MemberMapper" >
+  <resultMap id="BaseResultMap" type="com.zsf.xxx.model.Member" >
+    <constructor >
+      <idArg column="id" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="email" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="password" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="passwordHint" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="nickName" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="gender" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="mobile" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="grade" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="balance" jdbcType="DOUBLE" javaType="java.lang.Double" />
+      <arg column="VIPTime" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="withdrawalPassword" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="createId" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="createName" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="createTime" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="updateUserId" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="updateUserName" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="updateTime" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="status" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="remark" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, email, password, passwordHint, nickName, gender, mobile, grade, balance, VIPTime, 
+    withdrawalPassword, createId, createName, createTime, updateUserId, updateUserName, 
+    updateTime, status, remark
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zsf.xxx.model.MemberExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'true' as QUERYID,
+    <include refid="Base_Column_List" />
+    from member
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from member
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from member
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.zsf.xxx.model.MemberExample" >
+    delete from member
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.zsf.xxx.model.Member" >
+    insert into member (id, email, password, 
+      passwordHint, nickName, gender, 
+      mobile, grade, balance, 
+      VIPTime, withdrawalPassword, createId, 
+      createName, createTime, updateUserId, 
+      updateUserName, updateTime, status, 
+      remark)
+    values (#{id,jdbcType=BIGINT}, #{email,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{passwordhint,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, #{gender,jdbcType=INTEGER}, 
+      #{mobile,jdbcType=VARCHAR}, #{grade,jdbcType=INTEGER}, #{balance,jdbcType=DOUBLE}, 
+      #{viptime,jdbcType=TIMESTAMP}, #{withdrawalpassword,jdbcType=VARCHAR}, #{createid,jdbcType=INTEGER}, 
+      #{createname,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, #{updateuserid,jdbcType=INTEGER}, 
+      #{updateusername,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP}, #{status,jdbcType=INTEGER}, 
+      #{remark,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zsf.xxx.model.Member" >
+    insert into member
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="passwordhint != null" >
+        passwordHint,
+      </if>
+      <if test="nickname != null" >
+        nickName,
+      </if>
+      <if test="gender != null" >
+        gender,
+      </if>
+      <if test="mobile != null" >
+        mobile,
+      </if>
+      <if test="grade != null" >
+        grade,
+      </if>
+      <if test="balance != null" >
+        balance,
+      </if>
+      <if test="viptime != null" >
+        VIPTime,
+      </if>
+      <if test="withdrawalpassword != null" >
+        withdrawalPassword,
+      </if>
+      <if test="createid != null" >
+        createId,
+      </if>
+      <if test="createname != null" >
+        createName,
+      </if>
+      <if test="createtime != null" >
+        createTime,
+      </if>
+      <if test="updateuserid != null" >
+        updateUserId,
+      </if>
+      <if test="updateusername != null" >
+        updateUserName,
+      </if>
+      <if test="updatetime != null" >
+        updateTime,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="remark != null" >
+        remark,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="passwordhint != null" >
+        #{passwordhint,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null" >
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        #{gender,jdbcType=INTEGER},
+      </if>
+      <if test="mobile != null" >
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="grade != null" >
+        #{grade,jdbcType=INTEGER},
+      </if>
+      <if test="balance != null" >
+        #{balance,jdbcType=DOUBLE},
+      </if>
+      <if test="viptime != null" >
+        #{viptime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="withdrawalpassword != null" >
+        #{withdrawalpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="createid != null" >
+        #{createid,jdbcType=INTEGER},
+      </if>
+      <if test="createname != null" >
+        #{createname,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null" >
+        #{updateuserid,jdbcType=INTEGER},
+      </if>
+      <if test="updateusername != null" >
+        #{updateusername,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null" >
+        #{remark,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.zsf.xxx.model.MemberExample" resultType="java.lang.Integer" >
+    select count(*) from member
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update member
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.email != null" >
+        email = #{record.email,jdbcType=VARCHAR},
+      </if>
+      <if test="record.password != null" >
+        password = #{record.password,jdbcType=VARCHAR},
+      </if>
+      <if test="record.passwordhint != null" >
+        passwordHint = #{record.passwordhint,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nickname != null" >
+        nickName = #{record.nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.gender != null" >
+        gender = #{record.gender,jdbcType=INTEGER},
+      </if>
+      <if test="record.mobile != null" >
+        mobile = #{record.mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="record.grade != null" >
+        grade = #{record.grade,jdbcType=INTEGER},
+      </if>
+      <if test="record.balance != null" >
+        balance = #{record.balance,jdbcType=DOUBLE},
+      </if>
+      <if test="record.viptime != null" >
+        VIPTime = #{record.viptime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.withdrawalpassword != null" >
+        withdrawalPassword = #{record.withdrawalpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createid != null" >
+        createId = #{record.createid,jdbcType=INTEGER},
+      </if>
+      <if test="record.createname != null" >
+        createName = #{record.createname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createtime != null" >
+        createTime = #{record.createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updateuserid != null" >
+        updateUserId = #{record.updateuserid,jdbcType=INTEGER},
+      </if>
+      <if test="record.updateusername != null" >
+        updateUserName = #{record.updateusername,jdbcType=VARCHAR},
+      </if>
+      <if test="record.updatetime != null" >
+        updateTime = #{record.updatetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.status != null" >
+        status = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.remark != null" >
+        remark = #{record.remark,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update member
+    set id = #{record.id,jdbcType=BIGINT},
+      email = #{record.email,jdbcType=VARCHAR},
+      password = #{record.password,jdbcType=VARCHAR},
+      passwordHint = #{record.passwordhint,jdbcType=VARCHAR},
+      nickName = #{record.nickname,jdbcType=VARCHAR},
+      gender = #{record.gender,jdbcType=INTEGER},
+      mobile = #{record.mobile,jdbcType=VARCHAR},
+      grade = #{record.grade,jdbcType=INTEGER},
+      balance = #{record.balance,jdbcType=DOUBLE},
+      VIPTime = #{record.viptime,jdbcType=TIMESTAMP},
+      withdrawalPassword = #{record.withdrawalpassword,jdbcType=VARCHAR},
+      createId = #{record.createid,jdbcType=INTEGER},
+      createName = #{record.createname,jdbcType=VARCHAR},
+      createTime = #{record.createtime,jdbcType=TIMESTAMP},
+      updateUserId = #{record.updateuserid,jdbcType=INTEGER},
+      updateUserName = #{record.updateusername,jdbcType=VARCHAR},
+      updateTime = #{record.updatetime,jdbcType=TIMESTAMP},
+      status = #{record.status,jdbcType=INTEGER},
+      remark = #{record.remark,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zsf.xxx.model.Member" >
+    update member
+    <set >
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="passwordhint != null" >
+        passwordHint = #{passwordhint,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null" >
+        nickName = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        gender = #{gender,jdbcType=INTEGER},
+      </if>
+      <if test="mobile != null" >
+        mobile = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="grade != null" >
+        grade = #{grade,jdbcType=INTEGER},
+      </if>
+      <if test="balance != null" >
+        balance = #{balance,jdbcType=DOUBLE},
+      </if>
+      <if test="viptime != null" >
+        VIPTime = #{viptime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="withdrawalpassword != null" >
+        withdrawalPassword = #{withdrawalpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="createid != null" >
+        createId = #{createid,jdbcType=INTEGER},
+      </if>
+      <if test="createname != null" >
+        createName = #{createname,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        createTime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null" >
+        updateUserId = #{updateuserid,jdbcType=INTEGER},
+      </if>
+      <if test="updateusername != null" >
+        updateUserName = #{updateusername,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        updateTime = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null" >
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zsf.xxx.model.Member" >
+    update member
+    set email = #{email,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      passwordHint = #{passwordhint,jdbcType=VARCHAR},
+      nickName = #{nickname,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=INTEGER},
+      mobile = #{mobile,jdbcType=VARCHAR},
+      grade = #{grade,jdbcType=INTEGER},
+      balance = #{balance,jdbcType=DOUBLE},
+      VIPTime = #{viptime,jdbcType=TIMESTAMP},
+      withdrawalPassword = #{withdrawalpassword,jdbcType=VARCHAR},
+      createId = #{createid,jdbcType=INTEGER},
+      createName = #{createname,jdbcType=VARCHAR},
+      createTime = #{createtime,jdbcType=TIMESTAMP},
+      updateUserId = #{updateuserid,jdbcType=INTEGER},
+      updateUserName = #{updateusername,jdbcType=VARCHAR},
+      updateTime = #{updatetime,jdbcType=TIMESTAMP},
+      status = #{status,jdbcType=INTEGER},
+      remark = #{remark,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

@@ -1,0 +1,1197 @@
+2019-06-21 09:59:31.793 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 09:59:57.362 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:00:44.518 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:05:20.334 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:13:45.366 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:17:03.340 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:17:26.977 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:18:15.269 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:18:56.429 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:18:56.493 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: null, null
+2019-06-21 10:18:56.576 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 0
+2019-06-21 10:20:46.299 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:20:46.299 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:20:46.341 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:20:47.026 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:20:47.027 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:20:47.059 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:21:49.401 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:24:05.028 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:24:50.480 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:25:32.579 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:25:32.616 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:25:32.684 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:25:33.528 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:25:33.529 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:25:33.571 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:26:12.007 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ? 
+2019-06-21 10:26:12.008 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 10:26:12.099 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - <==    Updates: 1
+2019-06-21 10:26:19.692 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ? 
+2019-06-21 10:26:19.693 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 1(String), 1(String)
+2019-06-21 10:26:19.983 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - <==    Updates: 1
+2019-06-21 10:26:22.788 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ? 
+2019-06-21 10:26:22.789 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 2(String)
+2019-06-21 10:26:22.848 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - <==    Updates: 1
+2019-06-21 10:26:31.510 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:26:31.511 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:26:31.547 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:27:36.596 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:27:55.398 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:28:04.204 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:28:04.206 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: null, null
+2019-06-21 10:28:04.237 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 0
+2019-06-21 10:28:07.923 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:28:07.924 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:28:07.959 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:28:08.817 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:28:08.818 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:28:08.883 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:28:14.752 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:28:14.753 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:28:14.808 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:33:55.453 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:35:03.324 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:43:27.239 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 10:45:45.335 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:45:45.387 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:45:45.473 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:45:46.512 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:45:46.513 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:45:46.557 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:46:24.223 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:46:24.223 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:46:24.254 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:47:02.785 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:47:02.785 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:47:02.921 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:47:04.240 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:47:04.241 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:47:04.276 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:47:06.363 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:47:06.364 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:47:06.394 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:48:45.645 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:48:45.646 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:48:45.713 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:48:46.250 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:48:46.251 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:48:46.296 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:48:52.622 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:48:52.622 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:48:52.657 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:48:53.311 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:48:53.312 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:48:53.342 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:48:55.153 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:48:55.154 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:48:55.184 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:49:37.962 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:49:37.963 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:49:38.002 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:49:39.020 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:49:39.021 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:49:39.064 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:49:40.946 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:49:40.947 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:49:41.014 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:49:41.866 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:49:41.867 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:49:41.900 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:49:43.487 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:49:43.491 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:49:43.525 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:52:02.180 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:52:02.180 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:52:02.213 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:52:02.812 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:52:02.813 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:52:02.875 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:52:05.110 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:52:05.110 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:52:05.140 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:52:05.828 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:52:05.828 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:52:05.859 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:52:07.731 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:52:07.732 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:52:07.804 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:52:09.208 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:52:09.209 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 10:52:09.242 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 10:53:14.465 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:53:14.465 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:53:14.493 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:53:17.418 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:53:17.419 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 10:53:17.447 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 10:53:22.459 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:53:22.459 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:53:22.491 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:54:12.000 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:54:12.001 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:54:12.032 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:54:13.283 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:54:13.283 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:54:13.316 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:54:20.499 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:54:20.500 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:54:20.531 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:54:21.391 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:54:21.391 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:54:21.439 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:54:22.964 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:54:22.965 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:54:22.995 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:54:25.298 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:54:25.298 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 10:54:25.332 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 10:54:33.307 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:54:33.308 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:54:33.341 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:54:33.937 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:54:33.938 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:54:33.977 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:54:36.688 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:54:36.689 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:54:36.740 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:54:39.994 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:54:39.994 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 10:54:40.022 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 10:55:50.880 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:55:50.880 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:55:50.926 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:55:51.734 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:55:51.735 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:55:51.766 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:58:10.316 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:58:10.317 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:58:10.350 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:58:11.014 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:58:11.015 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:58:11.046 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:58:16.414 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:58:16.415 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 10:58:16.445 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 10:58:20.750 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 10:58:20.750 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 10:58:20.782 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 10:58:58.042 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:58:58.042 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:58:58.071 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:58:58.711 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:58:58.711 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:58:58.743 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 10:59:00.318 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 10:59:00.319 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 10:59:00.365 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 10:59:01.014 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 10:59:01.015 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 10:59:01.043 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:00:30.577 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:00:30.578 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:00:30.606 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:00:32.244 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:00:32.244 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 11:00:32.307 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 11:07:15.391 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:07:15.391 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:07:15.425 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:07:16.112 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:07:16.112 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:07:16.184 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:07:18.363 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:07:18.364 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:07:18.410 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:07:19.885 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:07:19.885 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 11:07:19.938 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 11:08:16.082 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:08:16.083 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:08:16.134 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:08:16.945 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:08:16.946 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:08:16.982 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:08:19.195 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:08:19.196 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:08:19.262 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:08:20.449 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:08:20.449 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:08:20.482 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:08:22.326 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:08:22.326 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:08:22.356 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:08:23.689 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:08:23.689 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 11:08:23.743 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 11:09:37.775 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:09:37.775 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:09:37.803 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:09:38.490 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:09:38.490 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:09:38.533 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:09:40.947 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:09:40.947 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:09:40.983 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:09:42.951 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:09:42.952 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 11:09:43.000 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 11:11:29.973 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:11:29.973 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:11:30.002 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:11:30.669 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:11:30.669 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:11:30.724 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:11:33.108 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:11:33.109 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:11:33.138 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:11:45.051 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:11:45.051 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:11:45.085 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:11:45.626 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:11:45.626 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:11:45.656 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:11:47.239 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:11:47.240 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:11:47.270 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:11:48.778 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:11:48.779 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:11:48.811 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:11:50.544 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:11:50.545 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:11:50.592 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:11:56.153 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:11:56.153 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:11:56.187 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:11:56.965 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:11:56.966 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:11:56.994 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:11:58.522 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:11:58.523 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:11:58.575 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:12:23.388 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:12:23.388 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:12:23.417 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:12:24.074 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:12:24.075 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:12:24.385 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:13:02.049 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:13:02.049 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:13:02.093 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:13:02.713 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:13:02.713 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:13:02.748 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:13:04.018 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:13:04.019 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:13:04.050 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:13:56.648 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:13:56.649 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:13:56.685 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:13:57.713 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:13:57.714 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:13:57.770 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:13:59.875 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:13:59.876 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:13:59.905 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:14:00.694 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:14:00.695 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:14:00.726 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:14:02.477 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:14:02.477 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:14:02.505 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:14:27.635 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:14:27.635 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:14:27.666 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:14:28.933 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:14:28.934 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:14:28.961 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:14:32.079 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:14:32.080 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:14:32.110 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:14:32.930 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:14:32.931 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:14:32.995 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:14:34.784 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:14:34.785 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:14:34.845 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:14:39.351 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:14:39.351 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:14:39.382 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:14:42.347 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:14:42.348 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 11:14:42.382 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 11:15:10.584 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:15:10.585 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:15:10.614 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:15:11.208 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:15:11.209 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:15:11.239 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:15:13.441 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:15:13.441 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:15:13.470 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:15:14.499 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:15:14.500 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:15:14.529 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:15:15.893 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:15:15.894 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:15:15.922 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:16:06.316 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:16:06.316 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:16:06.346 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:16:07.670 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:16:07.670 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:16:07.726 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:16:09.565 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:16:09.566 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:16:09.593 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:16:51.000 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:16:51.000 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:16:51.043 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:16:51.990 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:16:51.991 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:16:52.021 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:16:53.761 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:16:53.762 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:16:53.791 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:16:55.053 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:16:55.053 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:16:55.084 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:16:56.594 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:16:56.595 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:16:56.622 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:17:04.866 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:17:04.866 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:17:04.915 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:17:52.577 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:17:52.577 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:17:52.606 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:17:53.825 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:17:53.825 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:17:53.853 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:18:01.867 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:18:01.868 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:18:02.052 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:18:02.821 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:18:02.821 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:18:02.855 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:18:04.505 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:18:04.506 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:18:04.552 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:18:08.347 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:18:08.348 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:18:08.382 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:18:43.975 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:18:43.975 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:18:44.010 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:18:44.685 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:18:44.685 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:18:44.749 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:18:45.881 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:18:45.881 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:18:46.159 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:18:49.007 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:18:49.007 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:18:49.035 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:19:56.781 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:19:56.781 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:19:56.830 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:19:58.146 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:19:58.146 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:19:58.183 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:20:00.941 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:20:00.941 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:20:00.970 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:20:01.835 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:20:01.835 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:20:01.863 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:20:03.520 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:20:03.520 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:20:03.575 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:20:06.880 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:20:06.880 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:20:06.909 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:21:42.187 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:21:42.188 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:21:42.216 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:21:43.608 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:21:43.609 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:21:43.638 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:21:45.184 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:21:45.185 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:21:45.213 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:21:46.208 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:21:46.209 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:21:46.262 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:21:47.721 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:21:47.722 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:21:47.749 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:21:50.880 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:21:50.881 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:21:50.920 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:21:53.844 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:21:53.844 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 11:21:53.877 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 11:24:59.689 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:24:59.690 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:24:59.724 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:25:00.516 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:25:00.517 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:25:00.558 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:25:02.511 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:25:02.511 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:25:02.571 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:25:03.449 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:25:03.450 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:25:03.479 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:25:05.207 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:25:05.207 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:25:05.246 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:25:08.646 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:25:08.646 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:25:08.705 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:26:17.471 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:26:17.471 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:26:17.519 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:26:18.133 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:26:18.134 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:26:18.175 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:26:20.212 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 11:26:20.212 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 11:26:20.241 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 11:26:21.367 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.receiveAddressId = r.id 
+2019-06-21 11:26:21.367 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 11:26:21.416 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 11:26:23.258 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:26:23.259 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:26:23.287 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 11:26:26.715 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 11:26:26.715 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 11:26:26.744 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 13:40:53.386 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:41:29.434 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 13:41:29.480 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 13:41:29.785 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 13:41:33.152 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 13:41:33.153 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 13:41:36.006 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 13:41:47.991 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 13:41:47.993 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 13:41:49.401 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 13:45:55.425 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:49:17.433 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:49:39.386 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:50:04.225 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:50:29.439 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:51:14.473 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:56:26.561 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:56:52.871 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 13:59:29.052 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:01:42.808 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:03:26.592 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:04:08.949 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:04:08.951 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:04:08.984 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:04:10.288 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:04:10.288 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:04:10.371 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:04:14.488 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:04:14.489 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:04:14.522 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:05:22.774 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:05:22.775 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:05:22.804 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:06:15.489 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:06:15.489 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:06:15.539 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:06:17.423 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:06:17.424 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:06:17.494 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:06:25.266 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:06:25.266 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:06:25.301 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:06:26.986 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:06:26.986 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:06:27.027 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:06:29.782 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:06:29.782 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:06:30.027 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:07:01.364 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:07:01.364 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:07:01.435 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:07:55.490 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:07:55.490 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:07:55.523 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:07:57.544 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:07:57.545 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:07:57.610 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:08:08.104 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:08:08.106 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:08:08.165 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:08:09.210 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:08:09.210 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:08:09.239 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:08:12.865 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:08:12.866 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:08:12.897 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:08:23.635 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:08:23.636 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:08:23.682 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:08:24.588 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:08:24.589 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:08:24.624 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:08:27.765 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:08:27.766 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:08:27.795 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:08:34.956 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:08:34.956 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:08:34.987 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:09:04.754 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:09:04.755 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:09:04.805 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:09:06.222 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:09:06.223 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:09:06.269 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:10:21.018 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:10:21.019 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:10:21.077 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:10:21.960 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:10:21.960 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:10:21.989 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:10:26.846 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:10:26.847 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:10:26.915 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:11:51.016 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:12:03.354 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:12:03.390 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:12:03.459 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:12:04.537 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:12:04.538 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:12:04.603 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:12:10.848 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:12:10.849 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:12:10.879 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:18:28.128 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:18:28.129 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:18:28.162 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:18:29.695 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:18:29.695 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:18:29.739 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:18:48.514 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:18:48.514 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:18:48.548 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:18:49.397 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:18:49.398 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:18:49.439 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:18:52.252 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:18:52.253 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:18:52.294 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:18:53.875 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=? email=? password=? where id = ? 
+2019-06-21 14:18:53.877 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 张小(String), 420552577@qq.com(String), (String), 1(Integer)
+2019-06-21 14:19:00.248 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:19:00.249 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:19:00.305 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:19:03.842 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=? email=? password=? where id = ? 
+2019-06-21 14:19:03.843 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 张小(String), 420552577@qq.com(String), (String), 1(Integer)
+2019-06-21 14:20:44.836 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:20:59.216 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:20:59.218 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:20:59.263 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:21:00.401 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:21:00.402 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:21:00.469 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:21:04.977 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:21:04.977 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:21:05.026 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:21:10.517 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=?, password=? where id = ? 
+2019-06-21 14:21:10.518 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 张小小(String), 420552577@qq.com(String), (String), 1(Integer)
+2019-06-21 14:21:10.608 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:23:45.135 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:23:48.941 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:23:48.944 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:23:48.991 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:23:49.785 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:23:49.786 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:23:49.826 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:23:52.700 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:23:52.701 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:23:52.859 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:23:53.706 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:23:53.707 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:23:53.740 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:23:57.591 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:23:57.591 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:23:57.624 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:24:08.219 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:24:08.220 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 张小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:24:08.336 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:24:45.400 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:24:45.401 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:24:45.456 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:24:46.420 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:24:46.421 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:24:46.450 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:24:50.060 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:24:50.061 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:24:50.100 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:24:51.707 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:24:51.708 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: ??(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:24:51.762 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:25:03.537 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:25:03.538 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:25:03.588 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:25:10.709 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=?, password=? where id = ? 
+2019-06-21 14:25:10.709 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: ??(String), 420552577@qq.com(String), 123123(String), 1(Integer)
+2019-06-21 14:25:10.771 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:26:38.081 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:29:13.137 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:30:12.644 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:31:16.833 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:31:16.870 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:31:16.948 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:31:17.862 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:31:17.863 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:31:17.901 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:31:22.413 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:31:22.413 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:31:22.443 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:31:32.068 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member where id = ? 
+2019-06-21 14:31:32.069 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 1(Integer)
+2019-06-21 14:31:46.800 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:31:46.801 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:31:47.112 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:31:51.565 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member where id = ? 
+2019-06-21 14:31:51.566 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 1(Integer)
+2019-06-21 14:32:40.397 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:32:55.224 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:32:55.226 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:32:55.263 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:32:59.743 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member where id = ? 
+2019-06-21 14:32:59.744 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 1(Integer)
+2019-06-21 14:33:52.102 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:34:05.571 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:34:05.572 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:34:05.691 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:34:06.512 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:34:06.512 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:34:06.547 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:34:10.333 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:34:10.334 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:34:10.368 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:34:12.452 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:34:12.453 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: ??(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:34:12.742 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:34:22.614 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:34:22.615 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:34:22.661 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:34:27.331 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:34:27.332 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:34:27.402 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:38:03.945 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:38:03.946 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:38:03.983 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:38:04.854 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:38:04.856 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:38:04.909 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:38:06.631 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:38:06.632 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:38:06.663 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:38:07.582 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:38:07.582 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:38:07.624 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:38:10.954 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:38:10.955 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:38:10.983 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:38:13.187 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:38:13.188 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:38:13.264 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:38:13.505 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:38:13.505 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:38:13.542 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:38:17.264 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:38:17.265 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:38:17.318 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:38:17.318 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:38:17.320 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:38:17.351 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:38:28.968 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:38:28.970 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:38:29.000 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:38:30.117 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:38:30.117 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:38:30.169 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:38:55.487 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:38:55.488 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:38:55.518 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:38:57.163 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:38:57.164 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:38:57.193 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:39:00.754 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:39:00.755 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:39:00.787 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:39:02.251 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:39:02.252 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:39:02.280 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:39:02.281 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:39:02.310 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:39:02.311 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:39:03.542 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:39:03.542 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:39:03.602 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:39:03.627 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:39:03.628 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:39:03.657 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:39:06.923 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:39:06.923 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:39:06.973 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:39:07.612 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:39:07.613 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:39:07.643 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:41:38.946 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:41:38.947 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:41:38.978 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:41:39.991 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:41:39.992 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:41:40.055 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:41:43.037 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:41:43.038 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:41:43.102 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:41:43.866 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:41:43.866 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:41:43.901 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:41:46.669 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:41:46.669 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:41:46.699 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:41:48.119 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:41:48.120 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:41:48.194 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:41:48.226 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:41:48.226 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:41:48.258 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:41:50.010 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:41:50.011 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:41:50.154 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:41:50.154 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:41:50.186 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:41:50.187 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:41:52.745 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:41:52.745 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:41:53.042 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:41:53.042 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:41:53.049 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:41:53.076 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:41:55.087 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:41:55.088 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:41:55.150 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:41:55.151 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:41:55.205 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:41:55.207 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:41:58.625 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:41:58.625 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:41:58.741 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:41:58.741 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:41:58.770 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:41:58.772 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:43:07.521 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:43:07.522 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:43:07.624 [http-nio-8100-exec-5] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:43:08.919 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:43:08.920 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:43:09.037 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:43:11.638 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:43:11.638 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:43:11.748 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:43:12.867 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:43:12.868 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:43:12.930 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:43:15.589 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:43:15.589 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:43:15.639 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:43:17.024 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:43:17.025 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:43:17.106 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:43:17.192 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:43:17.192 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:43:17.229 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:43:27.858 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:43:27.859 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:43:28.053 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:43:29.042 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:43:29.042 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:43:29.180 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:43:32.311 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:43:32.312 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:43:32.444 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:43:34.280 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:43:34.281 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:43:34.379 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:43:34.379 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:43:34.465 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:43:34.483 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:44:24.141 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:44:24.141 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:44:24.175 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:44:25.814 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:44:25.815 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:44:25.844 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:44:27.250 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:44:27.251 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:44:27.303 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:44:28.379 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:44:28.379 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:44:28.408 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:44:31.026 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:44:31.027 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:44:31.063 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:44:32.417 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:44:32.417 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:44:32.497 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:44:32.497 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:44:32.498 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:44:32.531 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:44:33.952 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:44:33.953 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:44:34.031 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:44:34.058 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:44:34.059 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:44:34.091 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:44:35.083 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:44:35.084 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:44:35.156 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:44:35.157 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:44:35.157 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:44:35.234 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:24.242 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:45:24.242 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:45:24.272 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:45:25.726 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:45:25.726 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:45:25.763 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:45:27.966 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:45:27.967 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:45:28.003 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:45:28.984 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:45:28.985 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:45:29.018 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:45:31.542 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:31.542 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:31.607 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:33.238 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:45:33.239 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:45:33.407 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:33.408 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:33.440 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:45:33.445 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:35.325 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:45:35.326 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:45:35.392 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:35.393 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:35.478 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:45:35.479 [http-nio-8100-exec-7] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:37.095 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:45:37.096 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:45:37.135 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:37.136 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:37.179 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:45:37.179 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:38.190 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:45:38.191 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:45:38.252 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:38.252 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:38.338 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:45:38.353 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:39.247 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:45:39.248 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:45:39.316 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:39.316 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:39.373 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:45:39.376 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:42.411 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:45:42.411 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:45:42.485 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:45:43.306 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:45:43.307 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:45:43.340 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:45:45.849 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:45.850 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:45.885 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:45:47.319 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:45:47.319 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:45:47.380 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:45:47.380 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:45:47.470 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:45:47.471 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:46:09.314 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:46:09.314 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:46:09.362 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:46:10.842 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:46:10.842 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:46:10.945 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:46:13.742 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:46:13.743 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:46:14.196 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:46:15.503 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:46:15.503 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:46:15.573 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:46:55.898 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:46:55.899 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:46:55.979 [http-nio-8100-exec-9] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:46:57.412 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:46:57.413 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:46:57.443 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:46:59.639 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:46:59.640 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:46:59.685 [http-nio-8100-exec-8] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:47:00.680 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:47:00.680 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:47:00.733 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:47:06.412 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:47:06.412 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:47:06.491 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:47:09.367 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:47:09.367 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:47:09.432 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:47:53.181 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:47:53.182 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:47:53.219 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:47:54.075 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:47:54.076 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:47:54.122 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:47:57.440 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:47:57.441 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:47:57.478 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:47:58.673 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:47:58.673 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:47:58.703 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:48:00.954 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:48:00.954 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:48:00.986 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:48:02.806 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:48:02.806 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:48:02.876 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:49:52.143 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:49:52.149 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:49:52.206 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:49:53.658 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:49:53.659 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:49:53.702 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:49:56.165 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:49:56.165 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:49:56.214 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:49:57.428 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:49:57.429 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:49:57.534 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:50:01.785 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:50:01.785 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:50:01.850 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:50:03.942 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:50:03.942 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:50:04.150 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:50:36.906 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:50:36.907 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:50:37.030 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:50:38.429 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:50:38.430 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:50:38.461 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:50:42.085 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:50:42.085 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:50:42.187 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:50:44.455 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:50:44.456 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:50:44.647 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:50:58.172 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:50:58.172 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:50:58.201 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:51:02.972 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:51:02.972 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 张小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:51:03.230 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:52:45.803 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:52:45.803 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:52:45.836 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:52:46.532 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:52:46.533 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:52:46.565 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:52:49.293 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:52:49.293 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:52:49.413 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:52:50.324 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:52:50.324 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:52:50.367 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:52:52.795 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:52:52.796 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:52:52.841 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:52:58.321 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:52:58.321 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 张小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:52:58.393 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:53:00.127 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:53:00.128 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:53:00.164 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:53:03.638 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:53:03.639 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:53:03.674 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:53:07.587 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==>  Preparing: update member SET nickName=?, email=? where id = ? 
+2019-06-21 14:53:07.588 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - ==> Parameters: 张小小(String), 420552577@qq.com(String), 1(Integer)
+2019-06-21 14:53:07.717 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateMemberInfo - <==    Updates: 1
+2019-06-21 14:53:09.185 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:53:09.186 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:53:09.269 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:54:04.037 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:54:04.037 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:54:04.067 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:54:46.492 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:54:46.499 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:54:46.546 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:54:48.263 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:54:48.263 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:54:48.303 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:54:51.537 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:54:51.537 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:54:51.579 [http-nio-8100-exec-6] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:54:52.725 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:54:52.725 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:54:52.798 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:54:54.779 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:54:54.780 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:54:54.818 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:55:13.582 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 14:55:13.583 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 14:55:13.733 [http-nio-8100-exec-10] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 14:55:15.041 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 14:55:15.042 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 14:55:15.102 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 14:55:17.520 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 14:55:17.520 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 14:55:17.557 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 14:57:39.117 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:57:47.270 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:58:14.455 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:58:21.286 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:58:54.846 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 14:59:58.164 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:00:21.136 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:00:21.137 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:00:21.201 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:01:01.116 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:01:17.242 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:01:17.320 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:01:17.637 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:01:19.197 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:01:19.198 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:01:19.257 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:01:23.519 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 15:01:23.519 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: null
+2019-06-21 15:01:23.577 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 0
+2019-06-21 15:03:17.574 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:03:17.576 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:03:17.675 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:03:18.819 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:03:18.820 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:03:18.862 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:09:45.979 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:18:13.400 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:18:27.191 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:40:12.351 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:40:23.870 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:40:23.915 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:40:24.085 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:40:25.295 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:40:25.296 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:40:25.329 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:40:28.623 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?== 
+2019-06-21 15:40:28.624 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:40:34.078 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?== 
+2019-06-21 15:40:34.078 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:41:24.806 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:41:24.807 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:41:24.908 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:41:27.275 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:41:27.275 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:41:27.325 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:41:29.091 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:41:29.092 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:41:29.133 [http-nio-8100-exec-3] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:41:29.924 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:41:29.925 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:41:29.969 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:41:33.068 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?== 
+2019-06-21 15:41:33.068 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:41:38.641 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?== 
+2019-06-21 15:41:38.641 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:42:05.448 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:42:05.450 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:42:05.481 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:42:06.114 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:42:06.115 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:42:06.144 [http-nio-8100-exec-1] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:42:08.341 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:42:08.342 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:42:08.374 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:42:09.349 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:42:09.349 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:42:09.381 [http-nio-8100-exec-5] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:42:11.755 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?== 
+2019-06-21 15:42:11.756 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:42:24.917 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:42:24.919 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:42:24.951 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:42:25.634 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:42:25.634 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:42:25.670 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:42:28.452 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:42:28.453 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:42:28.522 [http-nio-8100-exec-4] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:42:29.531 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:42:29.531 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:42:29.587 [http-nio-8100-exec-2] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:42:31.352 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==>  Preparing: SELECT m.id, m.nickName, m.email, m.grade, m.mobile, m.status FROM member m WHERE m.id = ? 
+2019-06-21 15:42:31.352 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - ==> Parameters: 1(String)
+2019-06-21 15:42:31.516 [http-nio-8100-exec-3] DEBUG c.z.f.d.member.dao.MemberMapper.queryByMemberId - <==      Total: 1
+2019-06-21 15:42:34.580 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?== 
+2019-06-21 15:42:34.581 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:44:31.747 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:44:43.835 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:44:43.871 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:44:43.942 [http-nio-8100-exec-2] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:44:44.827 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:44:44.828 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:44:44.862 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:44:48.027 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?== 
+2019-06-21 15:44:48.027 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:45:10.392 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:46:06.300 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:46:26.034 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:46:44.008 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:47:13.795 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:47:51.272 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:48:49.919 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:48:59.280 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:48:59.346 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:48:59.441 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:49:00.526 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:49:00.526 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:49:00.584 [http-nio-8100-exec-8] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:49:03.506 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?=== 
+2019-06-21 15:49:03.506 [http-nio-8100-exec-10] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:49:46.261 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:49:46.262 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:49:46.295 [http-nio-8100-exec-1] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:49:47.367 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:49:47.368 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:49:47.397 [http-nio-8100-exec-9] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:49:51.387 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==>  Preparing: select * from user where userName = ? and passWord = ? 
+2019-06-21 15:49:51.388 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - ==> Parameters: 123(String), 123(String)
+2019-06-21 15:49:51.469 [http-nio-8100-exec-7] DEBUG c.z.f.d.u.dao.UserMapper.findByUserNameAndPwd - <==      Total: 1
+2019-06-21 15:49:52.248 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==>  Preparing: SELECT m.id, m.nickName, m.grade, m.mobile, m.status, r.address FROM member m, receive_address r WHERE m.id = r.memberId 
+2019-06-21 15:49:52.249 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - ==> Parameters: 
+2019-06-21 15:49:52.300 [http-nio-8100-exec-6] DEBUG c.z.f.d.member.dao.MemberMapper.queryList - <==      Total: 2
+2019-06-21 15:49:55.417 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==>  Preparing: update member set status = ? where id = ?=== 
+2019-06-21 15:49:55.417 [http-nio-8100-exec-4] DEBUG c.z.f.d.member.dao.MemberMapper.updateStatus - ==> Parameters: 0(String), 1(String)
+2019-06-21 15:51:02.624 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:51:33.289 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:53:09.866 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:54:18.378 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:55:06.977 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:55:39.039 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:56:27.041 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:57:10.557 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:58:11.145 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-21 15:59:06.291 [restartedMain] DEBUG c.z.f.devfreemarkdemo.DevfreemarkdemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
