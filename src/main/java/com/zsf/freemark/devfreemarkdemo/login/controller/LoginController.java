@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
@@ -24,10 +25,13 @@ public class LoginController extends BaseController {
 
     // 访问路径为"",或者为login都跳转到指定页面
     @RequestMapping({"","login"})
-    public Object login(ModelMap modelMap){
+    public Object login(ModelMap modelMap, @RequestParam Map<String, String> map){
+        System.out.println(map);
         Map<String, Object> resultMap = new HashMap<>();
-        String userName = request.getParameter("userName");
-        String passWord = request.getParameter("passWord");
+        // String userName = request.getParameter("userName");
+        // String passWord = request.getParameter("passWord");
+        String userName = map.get("userName");
+        String passWord = map.get("passWord");
 
         logger.info("LoginController-login: userName = " + userName +"; passWord = " + passWord);
 
@@ -53,8 +57,9 @@ public class LoginController extends BaseController {
     }
 
     @RequestMapping("home")
-    public Object home(){
+    public Object home(ModelMap modelMap,String nickName){
         logger.info("LoginController-home");
+        modelMap.addAttribute("nickName",nickName);
         return "home";
     }
 }

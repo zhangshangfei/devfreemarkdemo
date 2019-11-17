@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
         <link rel="stylesheet" href="./css/font.css">
         <link rel="stylesheet" href="./css/xadmin.css">
+        <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
         <script src="./lib/layui/layui.js" charset="utf-8"></script>
         <script type="text/javascript" src="./js/xadmin.js"></script>
         <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
@@ -23,7 +24,7 @@
                     <div class="layui-card">
                         <div class="layui-card-body ">
                             <blockquote class="layui-elem-quote">欢迎管理员：
-                                <span class="x-red">test</span>！当前时间:2018-04-25 20:50:53
+                                <span class="x-red">${nickName}</span>！当前时间:<span id="showDate"></span>
                             </blockquote>
                         </div>
                     </div>
@@ -200,4 +201,21 @@
         </div>
         </div>
     </body>
+
+    <script type="text/javascript">
+        $(function(){
+            setInterval("getTime();",1000); //每隔一秒执行一次
+            console.log(111)
+        })
+        //取得系统当前时间
+        function getTime(){
+            var myDate = new Date();
+            var date = myDate.toLocaleDateString();
+            var hours = myDate.getHours();
+            var minutes = myDate.getMinutes();
+            var seconds = myDate.getSeconds();
+            $("#showDate").text(date+" "+hours+":"+minutes+":"+seconds); //将值赋给div
+        }
+    </script>
+
 </html>
