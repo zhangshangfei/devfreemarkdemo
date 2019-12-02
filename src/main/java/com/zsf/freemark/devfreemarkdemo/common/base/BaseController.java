@@ -4,6 +4,7 @@ package com.zsf.freemark.devfreemarkdemo.common.base;
 
 import com.google.gson.Gson;
 import com.zsf.freemark.devfreemarkdemo.common.utils.StringUtils;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import javax.annotation.Resource;
@@ -21,6 +22,7 @@ import java.util.Map;
  * @param
  * @return
  */
+@ControllerAdvice
 public class BaseController {
 
 
@@ -35,7 +37,7 @@ public class BaseController {
     @ExceptionHandler(value = Exception.class)
     public String handleException(Exception e) throws ServletException, IOException {
         e.printStackTrace();
-        String ajaxHeader = request.getHeader(AJAX_HEADER);
+        String ajaxHeader = "";
         if(StringUtils.isEmpty(ajaxHeader)){
             return "/error";
         }else{
